@@ -45,10 +45,10 @@ for($i=0;$i<$getCount;$i++){
 <td><?php echo $character['name']; ?> </td>
 <td><?php echo $character['nickname']; ?> </td>
 <td><?php echo $character['birthday']; ?> </td>
-<td> <?php for($a=0;$a<$getOccupationCount;$a++) { echo $character['occupation'][$a]."<br/>"; ++$a; } ?> </td>
+<td> <?php for($a=0;$a<$getOccupationCount;$a++) { echo $character['occupation'][$a]."<br/>"; } ?> </td>
 </tr>
 <?php
-    $i++;
+
     }
 ?>
 </table>
